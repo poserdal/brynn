@@ -22,4 +22,4 @@ Allow: /
 User-Agent: Teoma
 Allow: /
 
-Sitemap: http://www.getbevel.com/sitemap.xml.gz
+Sitemap: http://themommybox.co/sitemap.xml
