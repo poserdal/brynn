@@ -37,6 +37,9 @@ body {
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
 	background-color: #34495e;
+  background: url(https://s3.amazonaws.com/TMBCo/NicoleG-23+B%26WCROP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
@@ -139,10 +142,10 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 900px;
+    width: 1200px;
   }
 }
