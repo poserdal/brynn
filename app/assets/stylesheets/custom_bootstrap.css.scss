@@ -3,6 +3,17 @@ $font-family-sans-serif:        'Lato', Helvetica, sans-serif;
 
 @import 'bootstrap';
 
+
+.navbar {
+  background: transparent;
+  border: none;
+  ul.nav a { color: #ecf0f1 !important; }
+  ul.nav a:hover {color:#FFE680 !important;
+  }
+  .navbar-brand{
+    color: white;
+  }
+}
 /*----------------------------------*/
 /*		Cover Page CSS								*/
 /*----------------------------------*/
