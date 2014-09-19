@@ -3,7 +3,16 @@ Tmbc::Application.routes.draw do
   get "thanks" => "pages#thanks"
   get "contact" => "pages#contact"
   get "about" => "pages#about"
-  
+  get "inspire" => "pages#inspire"
+  get "boxes" => "pages#boxes"
+  get "tri1" => "pages#tri1"
+  get "tri2" => "pages#tri2"
+  get "tri3" => "pages#tri3"
+
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -10,4 +10,21 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def boxes
+  end
+
+  def inspire
+  end
+
+  def tri1
+  end
+
+  def tri2
+  end
+
+  def tri3
+  end
+
+
 end
