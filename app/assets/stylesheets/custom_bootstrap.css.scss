@@ -12,6 +12,7 @@ $font-family-sans-serif:        'Lato', Helvetica, sans-serif;
   }
   .navbar-brand{
     color: white;
+
   }
 }
 /*----------------------------------*/
@@ -101,7 +102,7 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
+  color: #bdc3c7 .25;
   border-bottom-color: #fff;
 }
 @media (min-width: 768px) {
@@ -135,7 +136,6 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
     top: 0;
   }
   .mastfoot {
@@ -144,7 +144,7 @@ body {
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    vertical-align: top;
   }
   /* Handle the widths */
   .masthead,
@@ -168,7 +168,6 @@ body {
 .boxed{
   padding-left:  10px;
   padding-right: 10px;
-  padding-top:   10px;
   padding-bottom:10px;
 }
 
