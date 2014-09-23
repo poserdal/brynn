@@ -2,6 +2,26 @@
 <meta content='Pregnancy Inspiration - A compilation of our favorite pregnancy images of classy & original mothers.'>
 <meta content='The Mommy Box Co.' property='og:title'>
 
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-542182e35f4d9e1e"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="color: #34495e;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Let's Do This!</h4>
+      </div>
+      <div class="modal-body">
+        <%= render 'layouts/signup' %>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div style="background-color: #402E47;">
 	<div class="masthead clearfix">
@@ -9,8 +29,6 @@
       <h3 class="masthead-brand">The Mommy Box Co</h3>
       <ul class="nav masthead-nav">
         <li><%= link_to "home", root_path %></li>
-        <li><%= link_to "boxes", boxes_path %></li>
-        <li class="active"><%= link_to "inspiration", inspire_path %></li>
         <li>
           <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Reserve Your Discount &raquo;</button>
         </li>
@@ -24,7 +42,8 @@
 		<h1 style="font-size: 50px;">#OriginalMom(s) <br> YOU are our inspiration!<hr> </h1><br>
 		</div>
 		<div class="col-md-10 col-md-offset-1">
-		<p class="lead">These are some of our favorite #OriginalMom tagged photos. Connect to us on instagram, facebook or twitter and tag your photo with #OriginalMom and we might add you to our wall of inspiration. We may even reach out to you and feature you in our upcoming stories</p>
+		<p class="lead">Here are some of our favorite #OriginalMom tagged photos. Tag your own photos with #OriginalMom and we might add you to our wall of inspiration. We may even reach out to you and feature you in our upcoming stories</p>
+
 	</div>
 	</div>
 	</center>
